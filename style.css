@@ -1,0 +1,99 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  color: seashell;
+}
+
+header {
+  background-color: black;
+
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 18px 10px;
+}
+
+#mission {
+  background-image: url("images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  margin: 70px auto 50px auto;
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  background-color: black;
+  width: 100%;
+}
+
+#feature-teas {
+  width: 1000px;
+}
+
+.teas figure {
+  display: inline-block;
+}
+
+.teas figure img {
+  height: 200px;
+  width: 300px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#locations {
+  width: 1200px;
+  height: 550px;
+  margin: 70px auto 20px auto;
+  background-image: url("images/img-locations-background.jpg");
+}
+
+#locations h2 {
+  padding-top: 70px;
+}
+
+.location {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+footer .contact {
+  height: 200px;
+}
+
+#copyright {
+  text-align: left;
+  padding-left: 20px;
+}
